@@ -1,19 +1,34 @@
 <!DOCTYPE html>
+<!--Henry Hunt, Feb. 19 2021-->
 <html>
+
 	<head>
 		<title>Twin Cities Ice Cream | Your guide to the best ice cream the cities have to offer.</title>
+		
+		<meta charset="UTF-8">
+  		<meta name="description" content="Twin Cities Ice Cream">
+  		<meta name="keywords" content="HTML, CSS, JavaScript">
+  		<meta name="author" content="H Hunt">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<link rel="shortcut icon" href="images/icecreamicon.png">
 		<!-- External CSS link can go here-->
-		
+		<link rel="stylesheet" href="style.css">
 		
 		<!--Resourcing Google Font-->
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
 		<!--Internal CSS Styling below-->
 		<style>
-
+			#bottom_footer{ 
+				width: 100%;
+				clear: both;
+				height: 75px;
+				background-color: #474747;
+			}
 		</style>
 		
 	</head>
+
 	<body>
 		<div id="headerstruct">
 			<header class="struct">
@@ -63,7 +78,9 @@
 			<div class="contain">
 				<div class="blockcontain">
 					<div class="columnstruct">
-
+						<p style="font-family: 'Amatic SC', cursive; color: white; padding: 3%; font-size: 2vw;"> 
+								
+									My favorite Ice Cream Shop is Adele's in Excelsior Minnesota. While it may be considered more of a "custard shop", they serve delicious creamy treats sure to satisfy your sweet tooth. All of their products are homemade and each flavor is unique and always fresh. Being just a short walk from Exelscior Bay and the beach makes it a fantastic spot to grab a treat in the summertime.</p>
 					</div>		
 				</div><!--End of blockcontain-->
 			</div><!--end contain-->
@@ -122,8 +139,12 @@
 		
 		</script>
 		
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=[YOUR OWN API KEY]&callback=initMap">
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCu5wKaqjT74Up-7bMEdMvOlw1ikoanNGc&callback=initMap">
 		</script>
+
+		<footer id=bottom_footer>
+
+		</footer>
 
 	</body>
 </html>
